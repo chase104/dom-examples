@@ -1,0 +1,40 @@
+#game-container{
+    display: flex;
+}
+.danger-area{
+    background-color: red;
+    min-height: 100vh;
+    width:100%
+    
+}
+
+.safe-area{
+    background-color: green;
+    min-height: 100vh;
+    width:100%
+}
+#game-message{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 50px;
+    background: antiquewhite;
+    padding: 20px;
+    top: 50%;
+    display: none;
+}
+
+
+#game-container button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+    padding: 30px;
+    font-size: 20px;
+    display: none;
+}
+
+.show-element-block{
+    display: block !important;
+}
